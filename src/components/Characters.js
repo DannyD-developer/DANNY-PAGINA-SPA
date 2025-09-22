@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Characters() {
   const characters = [
-    { name: "Mario", description: "Plumber and hero.", img: "/images/mario.jpg" },
-    { name: "Luigi", description: "Mario's brother.", img: "/images/luigi.jpg" },
-    { name: "Peach", description: "Princess of Mushroom Kingdom.", img: "/images/peach.jpg" },
-    { name: "Yoshi", description: "Friendly dinosaur companion.", img: "/images/yoshi.jpg" },
-    { name: "Bowser", description: "The main antagonist.", img: "/images/bowser.jpg" },
+    { name: "Mario", description: "Plumber and hero.", img: "mario.jpg" },
+    { name: "Luigi", description: "Mario's brother.", img: "luigi.jpg" },
+    { name: "Peach", description: "Princess of Mushroom Kingdom.", img: "peach.jpg" },
+    { name: "Yoshi", description: "Friendly dinosaur companion.", img: "yoshi.jpg" },
+    { name: "Bowser", description: "The main antagonist.", img: "bowser.jpg" },
   ];
 
   return (
@@ -23,7 +23,12 @@ export default function Characters() {
               gap: "1rem",
             }}
           >
-            <img src={char.img} alt={char.name} width="150" height="150" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/${char.img}`}
+              alt={char.name}
+              width="150"
+              height="150"
+            />
             <div>
               <strong>{char.name}</strong>: {char.description}
             </div>
