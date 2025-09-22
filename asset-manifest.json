@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DANNY-PAGINA-SPA/static/css/main.cf315605.css",
+    "main.js": "/DANNY-PAGINA-SPA/static/js/main.a6e211c4.js",
+    "index.html": "/DANNY-PAGINA-SPA/index.html",
+    "main.cf315605.css.map": "/DANNY-PAGINA-SPA/static/css/main.cf315605.css.map",
+    "main.a6e211c4.js.map": "/DANNY-PAGINA-SPA/static/js/main.a6e211c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf315605.css",
+    "static/js/main.a6e211c4.js"
+  ]
+}
