@@ -2,31 +2,11 @@ import React from "react";
 
 export default function Characters() {
   const characters = [
-    {
-      name: "Mario",
-      description: "Plumber and hero.",
-      imgUrl: "https://dannyd-developer.github.io/DANNY-PAGINA-SPA/images/mario.jpg",
-    },
-    {
-      name: "Luigi",
-      description: "Mario's brother.",
-      imgUrl: "https://dannyd-developer.github.io/DANNY-PAGINA-SPA/images/luigi.jpg",
-    },
-    {
-      name: "Peach",
-      description: "Princess of Mushroom Kingdom.",
-      imgUrl: "https://dannyd-developer.github.io/DANNY-PAGINA-SPA/images/peach.jpg",
-    },
-    {
-      name: "Yoshi",
-      description: "Friendly dinosaur companion.",
-      imgUrl: "https://dannyd-developer.github.io/DANNY-PAGINA-SPA/images/yoshi.jpg",
-    },
-    {
-      name: "Bowser",
-      description: "The main antagonist.",
-      imgUrl: "https://dannyd-developer.github.io/DANNY-PAGINA-SPA/images/bowser.jpg",
-    },
+    { name: "Mario", description: "Plumber and hero.", img: "mario.jpg" },
+    { name: "Luigi", description: "Mario's brother.", img: "luigi.jpg" },
+    { name: "Peach", description: "Princess of Mushroom Kingdom.", img: "peach.jpg" },
+    { name: "Yoshi", description: "Friendly dinosaur companion.", img: "yoshi.jpg" },
+    { name: "Bowser", description: "The main antagonist.", img: "bowser.jpg" },
   ];
 
   return (
@@ -44,7 +24,8 @@ export default function Characters() {
             }}
           >
             <img
-              src={char.imgUrl}
+              // Ruta relativa segura usando process.env.PUBLIC_URL
+              src={process.env.PUBLIC_URL + "/images/" + char.img}
               alt={char.name}
               width="150"
               height="150"
@@ -58,3 +39,4 @@ export default function Characters() {
     </section>
   );
 }
+
