@@ -24,8 +24,7 @@ export default function Characters() {
             }}
           >
             <img
-              // Ruta relativa segura usando process.env.PUBLIC_URL
-              src={process.env.PUBLIC_URL + "/images/" + char.img}
+              src={process.env.PUBLIC_URL + "/" + char.img} // Ruta actualizada
               alt={char.name}
               width="150"
               height="150"
@@ -39,4 +38,3 @@ export default function Characters() {
     </section>
   );
 }
-
