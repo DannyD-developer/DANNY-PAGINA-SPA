@@ -24,7 +24,8 @@ export default function Characters() {
             }}
           >
             <img
-              src={process.env.PUBLIC_URL + "/" + char.img} // Ruta actualizada
+              // RUTA CORRECTA PARA GITHUB PAGES Y LOCALHOST
+              src={process.env.PUBLIC_URL + "/" + char.img}
               alt={char.name}
               width="150"
               height="150"
