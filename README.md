@@ -63,7 +63,7 @@ Público objetivo:
 Se realizaron:  
 - **Pruebas automáticas:**  
   - Lighthouse (Chrome DevTools).  
-  - axe DevTools.  
+  ![Evidencia](Carpets/evidencia2.png)
   - WAVE.  
 - **Pruebas manuales:**  
   - Navegación con teclado (Tab, Enter, Espacio).  
