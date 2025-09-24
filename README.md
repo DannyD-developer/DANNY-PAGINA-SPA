@@ -1,4 +1,4 @@
-# 🌟 Mario SPA - Personajes y Accesibilidad  
+#  Mario SPA - Personajes y Accesibilidad  
 
 Este proyecto es una **Single Page Application (SPA)** desarrollada con **React** que presenta a los personajes del universo de Mario. El enfoque principal fue implementar **buenas prácticas de accesibilidad** siguiendo las pautas **WCAG 2.1** y la normativa local vigente.  
 
