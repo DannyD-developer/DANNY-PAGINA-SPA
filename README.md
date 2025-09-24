@@ -63,7 +63,7 @@ Público objetivo:
 Se realizaron:  
 - **Pruebas automáticas:**  
   - Lighthouse (Chrome DevTools).  
-
+![Image](https://github.com/user-attachments/assets/6ca74880-fa36-449e-89ba-8ff24a3081cf)
   - WAVE.  
 - **Pruebas manuales:**  
   - Navegación con teclado (Tab, Enter, Espacio).  
