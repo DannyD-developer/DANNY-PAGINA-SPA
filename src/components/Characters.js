@@ -6,7 +6,7 @@ export default function Characters() {
     { name: "Luigi", description: "Mario's brother.", img: "./images/luigi.jpg" },
     { name: "Peach", description: "Princess of Mushroom Kingdom.", img: "./images/peach.jpg" },
     { name: "Yoshi", description: "Friendly dinosaur companion.", img: "./images/yoshi.jpg" },
-    { name: "Bowser", description: "The main antagonist.", img: "./images/bowser.jpg" },
+    { name: "Bowser", description: "The main antagonist.", img: "![Image](https://github.com/user-attachments/assets/b35bb266-4eee-4576-a913-d3067ad5cc61)" },
   ];
 
   return (
