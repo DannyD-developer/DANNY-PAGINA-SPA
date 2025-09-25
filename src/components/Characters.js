@@ -8,7 +8,6 @@ const characters = [
   { name: "Yoshi", description: "Friendly dinosaur companion.", img: ${process.env.PUBLIC_URL}/images/yoshi.jpg },
   { name: "Bowser", description: "The main antagonist.", img: ${process.env.PUBLIC_URL}/images/bowser.jpg },
 ];
-
   return (
     <section aria-labelledby="characters-title" className="section">
       <h1 id="characters-title">Characters</h1>
