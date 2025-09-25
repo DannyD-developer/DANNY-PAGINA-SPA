@@ -1,13 +1,13 @@
 import React from "react";
 
 export default function Characters() {
-  const characters = [
-    { name: "Mario", description: "Plumber and hero.", img: "./images/mario.jpg" },
-    { name: "Luigi", description: "Mario's brother.", img: "./images/luigi.jpg" },
-    { name: "Peach", description: "Princess of Mushroom Kingdom.", img: "./images/peach.jpg" },
-    { name: "Yoshi", description: "Friendly dinosaur companion.", img: "./images/yoshi.jpg" },
-    { name: "Bowser", description: "The main antagonist.", img: "./images/bowser.jpg" },
-  ];
+const characters = [
+  { name: "Mario", description: "Plumber and hero.", img: ${process.env.PUBLIC_URL}/images/mario.jpg },
+  { name: "Luigi", description: "Mario's brother.", img: ${process.env.PUBLIC_URL}/images/luigi.jpg },
+  { name: "Peach", description: "Princess of Mushroom Kingdom.", img: ${process.env.PUBLIC_URL}/images/peach.jpg },
+  { name: "Yoshi", description: "Friendly dinosaur companion.", img: ${process.env.PUBLIC_URL}/images/yoshi.jpg },
+  { name: "Bowser", description: "The main antagonist.", img: ${process.env.PUBLIC_URL}/images/bowser.jpg },
+];
 
   return (
     <section aria-labelledby="characters-title" className="section">
